@@ -15,7 +15,11 @@
 ## 🚀 Como usar
 
 1. Instale as dependências necessárias : Ruby, OpenSSL, Colorize
-2. Execute com:
+2. Defina o limite de Threads com:
+   ```bash
+   ulimit -n 1000000
+   ```
+4. Execute com:
    ```bash
    ruby ./ruddos.rb
    ```
