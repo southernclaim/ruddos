@@ -14,7 +14,7 @@
 
 ## 🚀 Como usar
 
-1. Instale as dependências necessárias : Ruby, OpenSSL
+1. Instale as dependências necessárias : Ruby, OpenSSL, Colorize
 2. Execute com:
    ```bash
    ruby ./ruddos.rb
@@ -24,6 +24,7 @@
 
 - Ruby
 - OpenSSL (`libssl-dev` ou `libopenssl-devel` dependendo do sistema)
+- Colorize (`gem install colorize --user-install`)
 - Linux ou outro sistema compatível
 
 ---
